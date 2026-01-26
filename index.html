@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
                 <a href="#home">Aman Jain</a>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -25,40 +24,28 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Aman Jain</h1>
-                    <p class="title">Lead Engineer – M5 AVP</p>
-                    <p class="subtitle">Building scalable systems and distributed solutions at Kotak Securities</p>
-                    <p class="description">I'm a Lead Engineer specializing in backend development, system design, and distributed systems. Passionate about building high-performance, scalable applications that solve real-world problems.</p>
-                    
-                    <div class="interests">
-                        <p><strong>Interests:</strong> System Design, Distributed Systems, Cloud Architecture, Database Optimization, Microservices, Data Structures & Algorithms</p>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="mailto:amanjain7838@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                        <a href="https://github.com/amanjain7838" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/amanjain78" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="tel:+919643868955" title="Phone"><i class="fas fa-phone"></i></a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="avatar-placeholder">
-                        <i class="fas fa-user"></i>
-                    </div>
+        <div class="container hero-container">
+            <div class="hero-image">
+                <div class="profile-image">
+                    <i class="fas fa-user"></i>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="hero-content">
+                <h1>Aman Jain</h1>
+                <p class="title">Lead Engineer – M5 AVP</p>
+                <p class="subtitle">I'm a Lead Engineer specializing in backend development, system design, and distributed systems at Kotak Securities.</p>
+                
+                <div class="interests">
+                    <p><strong>Interests:</strong> System Design, Distributed Systems, Cloud Architecture, Database Optimization, Microservices, Scalability</p>
+                </div>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a Lead Engineer at Kotak Securities with a passion for building robust, scalable systems. With expertise in distributed systems, system design, and modern cloud technologies, I've successfully delivered multiple high-impact projects that improved user experiences and reduced operational costs.</p>
-            <p>Throughout my career at Kotak Securities, Simplilearn, and 10times, I've led teams in designing and implementing microservices architectures, optimizing infrastructure, and solving complex technical challenges. I'm particularly interested in system design, cloud architecture, and technologies like Kafka, Redis, AWS, and NoSQL databases.</p>
+                <div class="social-links">
+                    <a href="https://github.com/amanjain7838" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/amanjain78" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:amanjain7838@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+919643868955" title="Phone"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -68,44 +55,44 @@
             <h2>Work Experience</h2>
             
             <div class="experience-item">
-                <div class="experience-header">
+                <div class="exp-header">
                     <h3>Kotak Securities, Bangalore</h3>
-                    <span class="date">Jul 2023 – Present</span>
+                    <span class="period">Jul 2023 – Present</span>
                 </div>
                 <p class="position">Lead Engineer – M5 AVP</p>
                 <ul class="highlights">
-                    <li>Developed a new Authentication Mechanism for users to secure their accounts and limit vendor access. Integrating this mechanism resolved the compliance issue and increased Algo Trading volumes.</li>
-                    <li>Integrated Redis Sentinel in the infrastructure, bolstering high availability and fault tolerance. Robust caching mechanisms using Redis optimized data retrieval and improved application responsiveness.</li>
-                    <li>Enhanced code repositories by migrating from multi-repo to mono-repo. Leveraged artifacts to streamline the development process, fostering efficiency and maintainability.</li>
-                    <li><strong>Tech Stack:</strong> AWS (EC2, S3), Kafka, ELK Stack, MySQL, MongoDB, Docker, NodeJS, ReactJS, Payment Gateways, Redis</li>
+                    <li>Developed Authentication Mechanism for users to secure accounts and limit vendor access, resolving compliance issues and increasing Algo Trading volumes</li>
+                    <li>Integrated Redis Sentinel in infrastructure for high availability and fault tolerance with robust caching mechanisms</li>
+                    <li>Migrated from multi-repo to mono-repo architecture to streamline development process and improve maintainability</li>
+                    <li><strong>Technologies:</strong> AWS (EC2, S3), Kafka, ELK, MySQL, MongoDB, Docker, NodeJS, ReactJS</li>
                 </ul>
             </div>
 
             <div class="experience-item">
-                <div class="experience-header">
+                <div class="exp-header">
                     <h3>Simplilearn, Bangalore</h3>
-                    <span class="date">Mar 2022 – Jul 2023</span>
+                    <span class="period">Mar 2022 – Jul 2023</span>
                 </div>
                 <p class="position">Software Development Engineer - 4</p>
                 <ul class="highlights">
-                    <li>Developed Lead Scoring mechanism using learner activity data and ML models. Every lead in the system receives an intelligent score, increasing sales conversion by 10%.</li>
-                    <li>Automated subtitle generation for courses using machine learning. Increased course release frequency and reduced course preparation expenditure by 5%.</li>
-                    <li>Replaced third-party event tracking with custom-built microservice. Reduced company tracking expenditure by 65%.</li>
-                    <li>Upgraded Help & Support experience for learners through optimization. Reduced ticket creation by 80% and surged user retention by 20%.</li>
-                    <li><strong>Tech Stack:</strong> NodeJS, ReactJS, TypeScript, AWS (Lambda, DynamoDB, Step Functions, Kinesis), ELK Stack, TensorFlow, AWS Transcribe</li>
+                    <li>Developed Lead Scoring mechanism using learner activity data and ML models, increasing sales conversion by 10%</li>
+                    <li>Automated subtitle generation for courses, reducing course preparation expenditure by 5%</li>
+                    <li>Replaced third-party event tracking with custom microservice, reducing tracking expenditure by 65%</li>
+                    <li>Upgraded Help & Support experience, reducing ticket creation by 80% and increasing user retention by 20%</li>
+                    <li><strong>Technologies:</strong> NodeJS, ReactJS, TypeScript, AWS Lambda, DynamoDB, Kinesis, TensorFlow</li>
                 </ul>
             </div>
 
             <div class="experience-item">
-                <div class="experience-header">
+                <div class="exp-header">
                     <h3>10times, Noida</h3>
-                    <span class="date">Nov 2017 – Mar 2022</span>
+                    <span class="period">Nov 2017 – Mar 2022</span>
                 </div>
                 <p class="position">Project Lead</p>
                 <ul class="highlights">
-                    <li>Developed a Virtual Event Platform enabling event organizers to host online and hybrid events. Platform achieved over 50k DAU and created a new revenue stream.</li>
-                    <li>Improved event dashboard with CRM integration, Lead Generation, and Trends analytics. Increased user retention and generated 50 organic subscriptions.</li>
-                    <li><strong>Tech Stack:</strong> NodeJS, ReactJS, PHP, TensorFlow, Payment Gateways</li>
+                    <li>Developed Virtual Event Platform enabling event organizers to host online and hybrid events with 50k+ DAU</li>
+                    <li>Improved event dashboard with CRM integration, Lead Generation, and Trends analytics</li>
+                    <li><strong>Technologies:</strong> NodeJS, ReactJS, PHP, TensorFlow, Firebase</li>
                 </ul>
             </div>
         </div>
@@ -119,70 +106,67 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>Neo Mutual Fund WebApp</h3>
-                    <p class="project-description">Enhanced the Kotak Mutual Fund segment by upgrading the MF WebApp experience. Upgraded and optimized servers to deliver flawless experience to large audiences.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">ReactJS</span>
-                        <span class="tech-tag">NodeJS</span>
-                        <span class="tech-tag">Redis</span>
-                        <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">MySQL</span>
+                    <p>Enhanced the Kotak Mutual Fund segment by upgrading MF WebApp experience and optimizing servers for large audiences.</p>
+                    <div class="tech-tags">
+                        <span>ReactJS</span>
+                        <span>NodeJS</span>
+                        <span>Redis</span>
+                        <span>MongoDB</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <h3>MF Job Dashboard</h3>
-                    <p class="project-description">Developed a job monitor dashboard to track and visualize mutual funds data processing. Helps teams monitor processes and data synchronization.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">ReactJS</span>
-                        <span class="tech-tag">NodeJS</span>
-                        <span class="tech-tag">Redis</span>
-                        <span class="tech-tag">MySQL</span>
+                    <p>Developed job monitor dashboard to track and visualize mutual funds data processing and synchronization.</p>
+                    <div class="tech-tags">
+                        <span>ReactJS</span>
+                        <span>NodeJS</span>
+                        <span>Redis</span>
+                        <span>MySQL</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <h3>TOTP Authentication System</h3>
-                    <p class="project-description">Added new authentication flow for algo trading platform using Time-based One-Time Password. Resolved compliance issues and gave traders control over platform actions.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">NodeJS</span>
-                        <span class="tech-tag">TypeScript</span>
-                        <span class="tech-tag">Redis</span>
-                        <span class="tech-tag">MySQL</span>
+                    <p>Added new authentication flow for algo trading platform using Time-based One-Time Password technology.</p>
+                    <div class="tech-tags">
+                        <span>NodeJS</span>
+                        <span>TypeScript</span>
+                        <span>Redis</span>
+                        <span>MySQL</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <h3>Trade Dashboard & Analytics</h3>
-                    <p class="project-description">Created dashboard for CS team to view trades placed by users and system. Developed backend microservice for trade activity tracking, reducing ticket-solving time by 4%.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">ReactJS</span>
-                        <span class="tech-tag">NodeJS</span>
-                        <span class="tech-tag">Apache Kafka</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">MSSQL</span>
+                    <p>Created dashboard for CS team to view trades and developed backend microservice for trade activity tracking.</p>
+                    <div class="tech-tags">
+                        <span>ReactJS</span>
+                        <span>Kafka</span>
+                        <span>Docker</span>
+                        <span>MSSQL</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <h3>Lead Scoring System</h3>
-                    <p class="project-description">Developed system-generated lead scoring using ML models. Upgraded user activity events pipeline to feed ML model. Increased lead conversion by 10%.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">AWS Lambda</span>
-                        <span class="tech-tag">DynamoDB</span>
-                        <span class="tech-tag">AWS Kinesis</span>
-                        <span class="tech-tag">Machine Learning</span>
+                    <p>Developed system-generated lead scoring using ML models, increased lead conversion by 10%.</p>
+                    <div class="tech-tags">
+                        <span>AWS Lambda</span>
+                        <span>DynamoDB</span>
+                        <span>Kinesis</span>
+                        <span>ML</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <h3>Virtual Event Platform (FLOOR)</h3>
-                    <p class="project-description">Delivered comprehensive virtual event platform with video conferencing, messaging, RTMP support, recording, ticketing, and polls. Contributed 40% to company revenue.</p>
-                    <div class="project-tech">
-                        <span class="tech-tag">WebRTC</span>
-                        <span class="tech-tag">WebSocket</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">AWS</span>
-                        <span class="tech-tag">MySQL</span>
+                    <p>Delivered comprehensive virtual event platform with video conferencing, RTMP, recording, ticketing and more.</p>
+                    <div class="tech-tags">
+                        <span>WebRTC</span>
+                        <span>WebSocket</span>
+                        <span>Docker</span>
+                        <span>AWS</span>
                     </div>
                 </div>
             </div>
@@ -198,95 +182,89 @@
                 <div class="skill-category">
                     <h3>Languages & Runtimes</h3>
                     <div class="skill-items">
-                        <span class="skill-item">NodeJS</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">TypeScript</span>
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">PHP</span>
+                        <span>NodeJS</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>Python</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Frontend Technologies</h3>
                     <div class="skill-items">
-                        <span class="skill-item">ReactJS</span>
-                        <span class="skill-item">HTML5</span>
-                        <span class="skill-item">CSS3</span>
-                        <span class="skill-item">ElectronJS</span>
+                        <span>ReactJS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>ElectronJS</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Backend & Frameworks</h3>
                     <div class="skill-items">
-                        <span class="skill-item">ExpressJS</span>
-                        <span class="skill-item">Microservices</span>
-                        <span class="skill-item">REST APIs</span>
-                        <span class="skill-item">WebSocket</span>
-                        <span class="skill-item">gRPC</span>
+                        <span>ExpressJS</span>
+                        <span>Microservices</span>
+                        <span>REST APIs</span>
+                        <span>WebSocket</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Cloud & Infrastructure</h3>
                     <div class="skill-items">
-                        <span class="skill-item">AWS (EC2, S3, Lambda, DynamoDB, RDS)</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">Kubernetes</span>
-                        <span class="skill-item">Terraform</span>
-                        <span class="skill-item">CI/CD Pipelines</span>
+                        <span>AWS (EC2, S3, Lambda)</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Databases & Caching</h3>
                     <div class="skill-items">
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">PostgreSQL</span>
-                        <span class="skill-item">MongoDB</span>
-                        <span class="skill-item">DynamoDB</span>
-                        <span class="skill-item">Redis & Sentinel</span>
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>DynamoDB</span>
+                        <span>Redis Sentinel</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Tools & Platforms</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Apache Kafka</span>
-                        <span class="skill-item">Elasticsearch, Logstash, Kibana (ELK)</span>
-                        <span class="skill-item">WebRTC</span>
-                        <span class="skill-item">Payment Gateways</span>
-                        <span class="skill-item">Firebase</span>
+                        <span>Apache Kafka</span>
+                        <span>ELK Stack</span>
+                        <span>WebRTC</span>
+                        <span>Firebase</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3>Core Competencies</h3>
                     <div class="skill-items">
-                        <span class="skill-item">System Design</span>
-                        <span class="skill-item">Distributed Systems</span>
-                        <span class="skill-item">Scalability</span>
-                        <span class="skill-item">Database Design</span>
-                        <span class="skill-item">Data Structures & Algorithms</span>
-                        <span class="skill-item">High Availability</span>
+                        <span>System Design</span>
+                        <span>Distributed Systems</span>
+                        <span>Scalability</span>
+                        <span>Database Design</span>
+                        <span>High Availability</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education & Certifications -->
+    <!-- Education Section -->
     <section class="education">
         <div class="container">
             <h2>Education & Certifications</h2>
             
-            <div class="education-item">
+            <div class="edu-item">
                 <h3>Noida Institute of Engineering & Technology</h3>
                 <p><strong>Bachelor of Technology - Computer Science</strong></p>
                 <p class="date">Aug 2014 - Jun 2018 | CGPA: 7.48/10</p>
             </div>
 
-            <div class="certifications">
+            <div class="cert-item">
                 <h3>Certifications</h3>
                 <ul>
                     <li>Post Graduate Program in AI and Machine Learning - Simplilearn</li>
