@@ -5,19 +5,19 @@
 }
 
 :root {
-    --primary-color: #0f172a;
-    --secondary-color: #1e293b;
+    --primary-color: #ffffff;
+    --secondary-color: #f8f9fa;
     --accent-color: #3b82f6;
     --accent-dark: #1d4ed8;
-    --text-light: #e2e8f0;
-    --text-muted: #94a3b8;
-    --border-color: #334155;
+    --text-light: #212529;
+    --text-muted: #6c757d;
+    --border-color: #dee2e6;
     --success-color: #10b981;
     --warning-color: #f59e0b;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     background-color: var(--primary-color);
     color: var(--text-light);
     line-height: 1.6;
@@ -40,7 +40,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(15, 23, 42, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     border-bottom: 1px solid var(--border-color);
@@ -86,7 +86,7 @@ html {
 .hero {
     padding-top: 120px;
     padding-bottom: 80px;
-    background: linear-gradient(135deg, rgba(63, 130, 142, 0.1) 0%, rgba(30, 41, 59, 0.5) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(248, 249, 250, 1) 100%);
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -130,7 +130,7 @@ html {
 }
 
 .interests {
-    background: rgba(59, 130, 246, 0.1);
+    background: rgba(59, 130, 246, 0.05);
     border-left: 3px solid var(--accent-color);
     padding: 1rem;
     margin: 1.5rem 0;
@@ -164,7 +164,7 @@ html {
 
 .social-links a:hover {
     background: var(--accent-color);
-    color: var(--primary-color);
+    color: white;
     transform: translateY(-3px);
 }
 
@@ -224,15 +224,16 @@ h2 {
 .experience-item {
     margin-bottom: 3rem;
     padding: 2rem;
-    background: rgba(30, 41, 59, 0.5);
+    background: rgba(248, 249, 250, 1);
     border-left: 4px solid var(--accent-color);
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--border-color);
 }
 
 .experience-item:hover {
     transform: translateX(10px);
-    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.15);
 }
 
 .experience-header {
@@ -296,7 +297,7 @@ h2 {
 }
 
 .project-card {
-    background: rgba(15, 23, 42, 0.8);
+    background: var(--primary-color);
     border: 1px solid var(--border-color);
     padding: 2rem;
     border-radius: 12px;
@@ -331,12 +332,12 @@ h2 {
 
 .tech-tag {
     display: inline-block;
-    background: rgba(59, 130, 246, 0.2);
+    background: rgba(59, 130, 246, 0.1);
     color: var(--accent-color);
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
     font-size: 0.85rem;
-    border: 1px solid rgba(59, 130, 246, 0.4);
+    border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
 /* Skills Section */
@@ -351,7 +352,7 @@ h2 {
 }
 
 .skill-category {
-    background: rgba(30, 41, 59, 0.5);
+    background: rgba(248, 249, 250, 1);
     padding: 2rem;
     border-radius: 8px;
     border: 1px solid var(--border-color);
@@ -360,7 +361,7 @@ h2 {
 
 .skill-category:hover {
     border-color: var(--accent-color);
-    background: rgba(59, 130, 246, 0.05);
+    background: rgba(59, 130, 246, 0.02);
 }
 
 .skill-category h3 {
@@ -376,17 +377,17 @@ h2 {
 }
 
 .skill-item {
-    background: rgba(59, 130, 246, 0.15);
+    background: rgba(59, 130, 246, 0.1);
     color: var(--text-light);
     padding: 0.6rem 1rem;
     border-radius: 6px;
     font-size: 0.9rem;
-    border: 1px solid rgba(59, 130, 246, 0.3);
+    border: 1px solid rgba(59, 130, 246, 0.2);
     transition: all 0.3s ease;
 }
 
 .skill-item:hover {
-    background: rgba(59, 130, 246, 0.3);
+    background: rgba(59, 130, 246, 0.2);
     border-color: var(--accent-color);
 }
 
