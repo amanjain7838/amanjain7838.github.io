@@ -16,6 +16,12 @@
   --tf-changelog-bg-color: var(--bs-gray-100);
 }
 
+/* Increase badge size specifically in the Skills section */
+#skills-set .badge {
+  font-size: 0.95rem;
+  padding: 0.45em 0.85em;
+}
+
 /* Format social media icons */
 .tf-social {
   display: inline-block;
